@@ -1,14 +1,14 @@
 //
-//  UIComponentsTests.swift
-//  UIComponentsTests
+//  UIComponentsWBTests.swift
+//  UIComponentsWBTests
 //
 //  Created by Amel Dizdarevic on 1/21/23.
 //
 
 import XCTest
-@testable import UIComponents
+@testable import UIComponentsWB
 
-final class UIComponentsTests: XCTestCase {
+final class UIComponentsWBTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

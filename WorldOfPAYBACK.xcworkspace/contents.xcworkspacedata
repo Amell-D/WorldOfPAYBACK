@@ -2,6 +2,27 @@
 <Workspace
    version = "1.0">
    <Group
+      location = "group:UIComponentsWB"
+      name = "UIComponentsWB">
+      <FileRef
+         location = "group:UIComponentsWB.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:UIComponentsWB"
+         name = "UIComponentsWB">
+         <FileRef
+            location = "group:UIComponentsWB.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:UIComponentsWBTests"
+         name = "UIComponentsWBTests">
+         <FileRef
+            location = "group:UIComponentsWBTests.swift">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
       location = "group:NetworkModule"
       name = "NetworkModule">
       <FileRef
@@ -19,27 +40,6 @@
          name = "NetworkModuleTests">
          <FileRef
             location = "group:NetworkModuleTests.swift">
-         </FileRef>
-      </Group>
-   </Group>
-   <Group
-      location = "group:UIComponents"
-      name = "UIComponents">
-      <FileRef
-         location = "group:UIComponents.xcodeproj">
-      </FileRef>
-      <Group
-         location = "group:UIComponentsTests"
-         name = "UIComponentsTests">
-         <FileRef
-            location = "group:UIComponentsTests.swift">
-         </FileRef>
-      </Group>
-      <Group
-         location = "group:UIComponents"
-         name = "UIComponents">
-         <FileRef
-            location = "group:UIComponents.h">
          </FileRef>
       </Group>
    </Group>
