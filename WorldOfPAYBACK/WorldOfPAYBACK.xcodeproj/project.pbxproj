@@ -16,6 +16,14 @@
 		374DF458297C06E100C3FD5C /* WorldOfPAYBACKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DF457297C06E100C3FD5C /* WorldOfPAYBACKTests.swift */; };
 		374DF462297C06E100C3FD5C /* WorldOfPAYBACKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DF461297C06E100C3FD5C /* WorldOfPAYBACKUITests.swift */; };
 		374DF464297C06E100C3FD5C /* WorldOfPAYBACKUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DF463297C06E100C3FD5C /* WorldOfPAYBACKUITestsLaunchTests.swift */; };
+		374DF51F297C0CAF00C3FD5C /* NetworkModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374DF51B297C0CAF00C3FD5C /* NetworkModule.framework */; };
+		374DF520297C0CAF00C3FD5C /* NetworkModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 374DF51B297C0CAF00C3FD5C /* NetworkModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		374DF521297C0CAF00C3FD5C /* TransactionsWBM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374DF51C297C0CAF00C3FD5C /* TransactionsWBM.framework */; };
+		374DF522297C0CAF00C3FD5C /* TransactionsWBM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 374DF51C297C0CAF00C3FD5C /* TransactionsWBM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		374DF523297C0CAF00C3FD5C /* UIComponentsWB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374DF51D297C0CAF00C3FD5C /* UIComponentsWB.framework */; };
+		374DF524297C0CAF00C3FD5C /* UIComponentsWB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 374DF51D297C0CAF00C3FD5C /* UIComponentsWB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		374DF525297C0CAF00C3FD5C /* Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374DF51E297C0CAF00C3FD5C /* Utilities.framework */; };
+		374DF526297C0CAF00C3FD5C /* Utilities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 374DF51E297C0CAF00C3FD5C /* Utilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		374DF527297C0CAF00C3FD5C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				374DF522297C0CAF00C3FD5C /* TransactionsWBM.framework in Embed Frameworks */,
+				374DF524297C0CAF00C3FD5C /* UIComponentsWB.framework in Embed Frameworks */,
+				374DF520297C0CAF00C3FD5C /* NetworkModule.framework in Embed Frameworks */,
+				374DF526297C0CAF00C3FD5C /* Utilities.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		374DF43D297C06DF00C3FD5C /* WorldOfPAYBACK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldOfPAYBACK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		374DF440297C06DF00C3FD5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +74,10 @@
 		374DF45D297C06E100C3FD5C /* WorldOfPAYBACKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldOfPAYBACKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		374DF461297C06E100C3FD5C /* WorldOfPAYBACKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldOfPAYBACKUITests.swift; sourceTree = "<group>"; };
 		374DF463297C06E100C3FD5C /* WorldOfPAYBACKUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldOfPAYBACKUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		374DF51B297C0CAF00C3FD5C /* NetworkModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NetworkModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		374DF51C297C0CAF00C3FD5C /* TransactionsWBM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TransactionsWBM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		374DF51D297C0CAF00C3FD5C /* UIComponentsWB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIComponentsWB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		374DF51E297C0CAF00C3FD5C /* Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +85,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				374DF521297C0CAF00C3FD5C /* TransactionsWBM.framework in Frameworks */,
+				374DF523297C0CAF00C3FD5C /* UIComponentsWB.framework in Frameworks */,
+				374DF51F297C0CAF00C3FD5C /* NetworkModule.framework in Frameworks */,
+				374DF525297C0CAF00C3FD5C /* Utilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +116,7 @@
 				374DF456297C06E100C3FD5C /* WorldOfPAYBACKTests */,
 				374DF460297C06E100C3FD5C /* WorldOfPAYBACKUITests */,
 				374DF43E297C06DF00C3FD5C /* Products */,
+				374DF51A297C0CAF00C3FD5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +161,17 @@
 			path = WorldOfPAYBACKUITests;
 			sourceTree = "<group>";
 		};
+		374DF51A297C0CAF00C3FD5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				374DF51B297C0CAF00C3FD5C /* NetworkModule.framework */,
+				374DF51C297C0CAF00C3FD5C /* TransactionsWBM.framework */,
+				374DF51D297C0CAF00C3FD5C /* UIComponentsWB.framework */,
+				374DF51E297C0CAF00C3FD5C /* Utilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +182,7 @@
 				374DF439297C06DF00C3FD5C /* Sources */,
 				374DF43A297C06DF00C3FD5C /* Frameworks */,
 				374DF43B297C06DF00C3FD5C /* Resources */,
+				374DF527297C0CAF00C3FD5C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
