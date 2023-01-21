@@ -1,159 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
-   <Group
-      location = "group:UIComponentsWB"
-      name = "UIComponentsWB">
-      <FileRef
-         location = "group:UIComponentsWB.xcodeproj">
-      </FileRef>
-      <Group
-         location = "group:UIComponentsWB"
-         name = "UIComponentsWB">
-         <FileRef
-            location = "group:UIComponentsWB.h">
-         </FileRef>
-      </Group>
-      <Group
-         location = "group:UIComponentsWBTests"
-         name = "UIComponentsWBTests">
-         <FileRef
-            location = "group:UIComponentsWBTests.swift">
-         </FileRef>
-      </Group>
-   </Group>
-   <Group
-      location = "group:NetworkModule"
-      name = "NetworkModule">
-      <FileRef
-         location = "group:NetworkModule.xcodeproj">
-      </FileRef>
-      <Group
-         location = "group:NetworkModule"
-         name = "NetworkModule">
-         <FileRef
-            location = "group:NetworkModule.h">
-         </FileRef>
-      </Group>
-      <Group
-         location = "group:NetworkModuleTests"
-         name = "NetworkModuleTests">
-         <FileRef
-            location = "group:NetworkModuleTests.swift">
-         </FileRef>
-      </Group>
-   </Group>
-   <Group
-      location = "group:Utilities"
-      name = "Utilities">
-      <Group
-         location = "group:UtilitiesTests"
-         name = "UtilitiesTests">
-         <FileRef
-            location = "group:UtilitiesTests.swift">
-         </FileRef>
-      </Group>
-      <FileRef
-         location = "group:Utilities.xcodeproj">
-      </FileRef>
-      <Group
-         location = "group:Utilities"
-         name = "Utilities">
-         <FileRef
-            location = "group:Utilities.h">
-         </FileRef>
-      </Group>
-   </Group>
-   <Group
-      location = "group:TransactionsWBM"
-      name = "TransactionsWBM">
-      <Group
-         location = "group:TransactionsWBM"
-         name = "TransactionsWBM">
-         <FileRef
-            location = "group:TransactionsWBM.h">
-         </FileRef>
-      </Group>
-      <Group
-         location = "group:TransactionsWBMTests"
-         name = "TransactionsWBMTests">
-         <FileRef
-            location = "group:TransactionsWBMTests.swift">
-         </FileRef>
-      </Group>
-      <FileRef
-         location = "group:TransactionsWBM.xcodeproj">
-      </FileRef>
-   </Group>
-   <Group
-      location = "group:WorldOfPAYBACK"
-      name = "WorldOfPAYBACK">
-      <Group
-         location = "group:WorldOfPAYBACKUITests"
-         name = "WorldOfPAYBACKUITests">
-         <FileRef
-            location = "group:WorldOfPAYBACKUITestsLaunchTests.swift">
-         </FileRef>
-         <FileRef
-            location = "group:WorldOfPAYBACKUITests.swift">
-         </FileRef>
-      </Group>
-      <Group
-         location = "group:WorldOfPAYBACK"
-         name = "WorldOfPAYBACK">
-         <FileRef
-            location = "group:ViewController.swift">
-         </FileRef>
-         <Group
-            location = "group:Assets.xcassets"
-            name = "Assets.xcassets">
-            <Group
-               location = "group:AppIcon.appiconset"
-               name = "AppIcon.appiconset">
-               <FileRef
-                  location = "group:Contents.json">
-               </FileRef>
-            </Group>
-            <Group
-               location = "group:AccentColor.colorset"
-               name = "AccentColor.colorset">
-               <FileRef
-                  location = "group:Contents.json">
-               </FileRef>
-            </Group>
-            <FileRef
-               location = "group:Contents.json">
-            </FileRef>
-         </Group>
-         <Group
-            location = "group:Base.lproj"
-            name = "Base.lproj">
-            <FileRef
-               location = "group:LaunchScreen.storyboard">
-            </FileRef>
-            <FileRef
-               location = "group:Main.storyboard">
-            </FileRef>
-         </Group>
-         <FileRef
-            location = "group:AppDelegate.swift">
-         </FileRef>
-         <FileRef
-            location = "group:Info.plist">
-         </FileRef>
-         <FileRef
-            location = "group:SceneDelegate.swift">
-         </FileRef>
-      </Group>
-      <FileRef
-         location = "group:WorldOfPAYBACK.xcodeproj">
-      </FileRef>
-      <Group
-         location = "group:WorldOfPAYBACKTests"
-         name = "WorldOfPAYBACKTests">
-         <FileRef
-            location = "group:WorldOfPAYBACKTests.swift">
-         </FileRef>
-      </Group>
-   </Group>
+   <FileRef
+      location = "group:NetworkModule/NetworkModule.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:WorldOfPAYBACK/../Utilities/Utilities.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UIComponentsWB/UIComponentsWB.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TransactionsWBM/TransactionsWBM.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:WorldOfPAYBACK/WorldOfPAYBACK.xcodeproj">
+   </FileRef>
 </Workspace>

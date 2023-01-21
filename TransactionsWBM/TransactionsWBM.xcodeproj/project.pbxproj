@@ -10,6 +10,9 @@
 		374DF4E9297C08FD00C3FD5C /* TransactionsWBM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374DF4E0297C08FD00C3FD5C /* TransactionsWBM.framework */; };
 		374DF4EE297C08FD00C3FD5C /* TransactionsWBMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DF4ED297C08FD00C3FD5C /* TransactionsWBMTests.swift */; };
 		374DF4EF297C08FD00C3FD5C /* TransactionsWBM.h in Headers */ = {isa = PBXBuildFile; fileRef = 374DF4E3297C08FD00C3FD5C /* TransactionsWBM.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		374DF538297C12AA00C3FD5C /* TransactionsWBListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DF537297C12AA00C3FD5C /* TransactionsWBListView.swift */; };
+		374DF540297C1ADE00C3FD5C /* TransactionsWBDetailsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DF53F297C1ADE00C3FD5C /* TransactionsWBDetailsViews.swift */; };
+		374DF542297C1B9700C3FD5C /* TransactionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374DF541297C1B9700C3FD5C /* TransactionsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,9 @@
 		374DF4E3297C08FD00C3FD5C /* TransactionsWBM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransactionsWBM.h; sourceTree = "<group>"; };
 		374DF4E8297C08FD00C3FD5C /* TransactionsWBMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransactionsWBMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		374DF4ED297C08FD00C3FD5C /* TransactionsWBMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsWBMTests.swift; sourceTree = "<group>"; };
+		374DF537297C12AA00C3FD5C /* TransactionsWBListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsWBListView.swift; sourceTree = "<group>"; };
+		374DF53F297C1ADE00C3FD5C /* TransactionsWBDetailsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsWBDetailsViews.swift; sourceTree = "<group>"; };
+		374DF541297C1B9700C3FD5C /* TransactionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,9 @@
 			isa = PBXGroup;
 			children = (
 				374DF4E3297C08FD00C3FD5C /* TransactionsWBM.h */,
+				374DF537297C12AA00C3FD5C /* TransactionsWBListView.swift */,
+				374DF53F297C1ADE00C3FD5C /* TransactionsWBDetailsViews.swift */,
+				374DF541297C1B9700C3FD5C /* TransactionsViewModel.swift */,
 			);
 			path = TransactionsWBM;
 			sourceTree = "<group>";
@@ -144,6 +153,7 @@
 				TargetAttributes = {
 					374DF4DF297C08FD00C3FD5C = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 					};
 					374DF4E7297C08FD00C3FD5C = {
 						CreatedOnToolsVersion = 14.1;
@@ -191,6 +201,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				374DF540297C1ADE00C3FD5C /* TransactionsWBDetailsViews.swift in Sources */,
+				374DF542297C1B9700C3FD5C /* TransactionsViewModel.swift in Sources */,
+				374DF538297C12AA00C3FD5C /* TransactionsWBListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +349,7 @@
 		374DF4F3297C08FD00C3FD5C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -360,6 +374,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -368,6 +383,7 @@
 		374DF4F4297C08FD00C3FD5C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -400,6 +416,7 @@
 		374DF4F6297C08FD00C3FD5C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DZYJAN2YGZ;
@@ -416,6 +433,7 @@
 		374DF4F7297C08FD00C3FD5C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DZYJAN2YGZ;
